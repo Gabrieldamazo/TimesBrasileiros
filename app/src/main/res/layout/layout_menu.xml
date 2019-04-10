@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Menu_Activity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Menu times"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:onClick="abrirMenu"
+                android:src="@drawable/palmeiras" />
+
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:onClick="abrirMenu"
+                android:src="@drawable/santos" />
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:onClick="abrirMenu"
+                android:src="@drawable/corinthians"/>
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_margin="1dp"
+                android:onClick="abrirMenu"
+                android:src="@drawable/saopaulo" />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_margin="1dp"
+            android:onClick="abrirMenu"
+            android:src="@drawable/flamengo" />
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_margin="1dp"
+            android:onClick="abrirMenu"
+            android:src="@drawable/gremio" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_margin="1dp"
+            android:onClick="abrirMenu"
+            android:src="@drawable/vasco"/>
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_margin="1dp"
+            android:onClick="abrirMenu"
+            android:src="@drawable/cruzeiro"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_margin="1dp"
+        android:onClick="abrirMenu"
+        android:src="@drawable/internacional"/>
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_margin="1dp"
+        android:onClick="abrirMenu"
+        android:src="@drawable/fluminense"/>
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
